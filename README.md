@@ -17,6 +17,7 @@ npm install
 npm run dev      # open the printed URL
 npm run build    # static build in dist/
 npm test         # battle rules, data and map validation
+npm run build:single   # one self-contained HTML file: dist/pockets-with-stuff.html
 ```
 
 | Action | Keyboard | Gamepad | Touch |

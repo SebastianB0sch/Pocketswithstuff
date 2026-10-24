@@ -19,7 +19,8 @@ html, body {
 
 #game {
   position: fixed;
-  inset: 0;
+  /* Clear notches and home indicators on phones. */
+  inset: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
 }
 
 #game canvas {
