@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Menu preview</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #10131a; overflow: hidden; }
+      #game { position: fixed; inset: 0; }
+      #game canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    </style>
+  </head>
+  <body>
+    <div id="game"><canvas id="world"></canvas><canvas id="ui"></canvas></div>
+    <script type="module" src="./menus.ts"></script>
+  </body>
+</html>

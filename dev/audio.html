@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Audio preview</title>
+    <style>
+      body { font: 14px system-ui, sans-serif; background: #14161c; color: #dde; padding: 16px; }
+      button { margin: 3px; padding: 6px 10px; background: #2a2f3a; color: #dde; border: 1px solid #445; border-radius: 4px; cursor: pointer; }
+      h2 { font-size: 15px; margin: 16px 0 6px; }
+      pre { background: #0d0e12; padding: 8px; }
+    </style>
+  </head>
+  <body>
+    <h2>Music</h2><div id="tracks"></div>
+    <button id="stop">Stop music</button>
+    <h2>Jingles</h2><div id="jingles"></div>
+    <h2>SFX</h2><div id="sfx"></div>
+    <h2>Offline render</h2><button id="render">Render all and measure</button><pre id="out"></pre>
+    <script type="module" src="./audio.ts"></script>
+  </body>
+</html>
